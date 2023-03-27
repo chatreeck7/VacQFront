@@ -37,3 +37,16 @@
     transform: translateY(0px);
   }
 }
+.basic-web h1 {
+  background-color: #ff0000;
+}
+.basic-web h2 {
+  background-color: #0000ff;
+}
+.basic-web h3 {
+  background-color: #00ff00;
+}
+.basic-web em {
+  background-color: #0000ff;
+  color: #ffffff;
+}

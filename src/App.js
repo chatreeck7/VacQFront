@@ -5,7 +5,6 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 import { BasicWeb } from './screens/BasicWeb.tsx'
-import { SimpleApp } from './screens/SimpleApp.tsx'
 import { Header } from './components/Header.tsx'
 import { Home } from './screens/Home.tsx'
 import { Login } from './screens/Login.tsx'
@@ -22,7 +21,6 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/basicWeb" element={<BasicWeb />} />
-            <Route path="/simpleApp" element={<SimpleApp />} />
           </Routes>
         </div>
       </Router>
